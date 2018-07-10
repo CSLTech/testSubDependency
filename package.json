@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm install mockgo"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CSLTech/testSubDependency/issues"
   },
-  "homepage": "https://github.com/CSLTech/testSubDependency#readme"
+  "homepage": "https://github.com/CSLTech/testSubDependency#readme",
+  "devDependencies": {
+    "mockgo": "^1.1.7"
+  }
 }
